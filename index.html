@@ -4,18 +4,59 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="./center.css">
+    <link rel="stylesheet" type="text/css" href="./float.css">
+    <link rel="stylesheet" type="text/css" href="./flex.css">
   </head>
   <body>
     <h1>垂直居中</h1>
-    1. absolute transform
-    <div class="center">
-      <div>div</div>
+      1. absolute transform
+      <div class="center">
+        <div>div</div>
+      </div>
+      <br/>
+
+      2. flex center
+      <div class="center-flex">
+        <div>flex</div>
+      </div>
+
+
+    <h1>flex 用法</h1>
+      1. 主轴，flex-direction，从左到右，从右到左
+      <div class="flex-test">
+        <div>aaaa</div>
+        <div>bbbb</div>
+        <div>cccc</div>
+        <div>dddd</div>
+        <div>eeee</div>
+      </div>
+
+      2. 交叉轴，align-items
+      <div class="flex-test2">
+
+      </div>
+
+
+    <h1>float</h1>
+    1.塌陷情况描述,内部元素无法撑开父级元素
+    <div class="float">
+      <div>aaaa</div>
+      <div>bbbb</div>
+      <div>cccc</div>
+      <div>dddd</div>
+      <div>eeee</div>
     </div>
-    2.
+    <br><br><br>
+    2. 塌陷问题解决
+    <div class="float2">
+      <div>aaaa</div>
+      <div>bbbb</div>
+      <div>cccc</div>
+      <div>dddd</div>
+      <div>eeee</div>
+    </div>
 
-
-    <h1>float塌陷</h1>
-
+    <br><br><br><br><br><br><br><br><hr>
   </body>
 
 </html>

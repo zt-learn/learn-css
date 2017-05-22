@@ -1,0 +1,17 @@
+.flex-test {
+  border: 1px solid gray;
+  width: 400px;
+  height: 300px;
+  display: flex;
+
+  flex-direction: column-reverse;
+}
+
+.flex-test2 {
+  border: 1px solid gray;
+  width: 400px;
+  height: 300px;
+  display: flex;
+
+
+}
