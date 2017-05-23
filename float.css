@@ -16,7 +16,24 @@
   width: 400px;
 }
 
+.float2::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .float2 div {
+  float: left;
+  border: 1px solid red;
+  height: 40px;
+}
+
+.float3 {
+  border: 1px solid gray;
+  width: 400px;
+}
+
+.float3 div {
   float: left;
   border: 1px solid red;
   height: 40px;

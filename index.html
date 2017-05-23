@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./flex.css">
   </head>
   <body>
+<!-- 基本定位，垂直居中 -->
     <h1>垂直居中</h1>
       1. absolute transform
       <div class="center">
@@ -20,7 +21,7 @@
         <div>flex</div>
       </div>
 
-
+<!-- flex新布局策略 -->
     <h1>flex 用法</h1>
       1. 主轴，flex-direction，从左到右，从右到左
       <div class="flex-test">
@@ -33,10 +34,14 @@
 
       2. 交叉轴，align-items
       <div class="flex-test2">
-
+        <div>aaaa</div>
+        <div>bbbb</div>
+        <div>cccc</div>
+        <div>dddd</div>
+        <div>eeee</div>
       </div>
 
-
+<!-- float使用，及常见问题  -->
     <h1>float</h1>
     1.塌陷情况描述,内部元素无法撑开父级元素
     <div class="float">
@@ -46,8 +51,8 @@
       <div>dddd</div>
       <div>eeee</div>
     </div>
-    <br><br><br>
-    2. 塌陷问题解决
+    <br><br><br><br><br>
+    2. 塌陷问题解决方案－
     <div class="float2">
       <div>aaaa</div>
       <div>bbbb</div>
@@ -56,7 +61,18 @@
       <div>eeee</div>
     </div>
 
-    <br><br><br><br><br><br><br><br><hr>
+    <br><br><br><br><br>
+    3. 塌陷问题解决方案二
+    <div class="float2">
+      <div>aaaa</div>
+      <div>bbbb</div>
+      <div>cccc</div>
+      <div>dddd</div>
+      <div>eeee</div>
+      <p style="clear: both;width:0;height:0"></p>
+    </div>
+
+    <br><br><br><br><br><br><br><hr>
   </body>
 
 </html>
